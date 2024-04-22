@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# sendin a file to the server
 file="$1"
 username="$3"
 ip="$2"
