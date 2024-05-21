@@ -21,4 +21,3 @@ if __name__ == "__main__":
         for task in user_todo:
             file.write('"{}","{}","{}","{}"\n'.format(
                 id, usr_name, task.get('completed'), task.get('title')))
-

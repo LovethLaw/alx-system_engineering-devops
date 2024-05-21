@@ -31,4 +31,3 @@ if __name__ == "__main__":
 
     with open(filename, mode="w", newline="") as file:
         json.dump(user_dict, file)
-
