@@ -27,4 +27,3 @@ if __name__ == "__main__":
         f"Employee {emp_name} is done with tasks({completed}/{total_task}):")
 
     [print(f"\t {val.get('title')}") for val in user_todo]
-
